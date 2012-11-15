@@ -21,6 +21,7 @@
 	<!-- CSS concatenated and minified via ant build script-->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/style-layout.css">
+	<link rel="stylesheet" href="css/style-layout-change.css" />
 	<!-- end CSS-->
 
 	<!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
@@ -44,10 +45,20 @@
 				<li><a href="#">Status</a></li>
 			</ul>
 		</nav>
+		<div class="communicator">
+			
+		</div>
+		<div class="layout-changer">
+			<ul class="layout-changer">
+				<li class="layout-changer-2column"><img src="/img/2column.png"/></li>
+				<li class="layout-changer-1column"><img src="/img/1column.png"/></li>
+				<li class="layout-changer-displayall"><img src="/img/3column.png"/></li>
+			</ul>
+		</div>
 	</header>
     <section>
-    	<div class="left">
-			<div class="c2">
+    	<div id="left" class="left">
+			<div id="c2" class="c2 half">
 				<hgroup>
 					<h1>Heading of Cource</h1>
 					<h2>Class of 12th Jan 2012</h2>
@@ -67,7 +78,7 @@
 					</p>
 				</article>
 			</div>
-			<div class="c1">
+			<div id="c1" class="c1">
 				<aside class="left">
 					<section class="update-class">
 						<ul class="latest-update-class">
@@ -100,8 +111,8 @@
 				</aside>
 			</div>
 		</div>
-		<div class="right">
-			<div class="c3">
+		<div id="right" class="right">
+			<div id="c3" class="c3">
 				<aside class="right">
 		     		<section class="update-upcoming-classes">
 						<ul class="latest-update-upcoming-classes">

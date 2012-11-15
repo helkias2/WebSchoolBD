@@ -1,0 +1,27 @@
+li.layout-changer-2column{
+	width:24px;
+	height:24px;
+	background: url(../img/2column.png);
+}
+li.layout-changer-1column{
+	width:24px;
+	height:24px;
+	background: url(../img/1column.png);
+}
+li.layout-changer-displayall{
+	width:24px;
+	height:24px;
+	background: url(../img/3column.png);
+}
+.hide{
+	display:none;
+}
+.half{
+	float: right;
+	width:76%;
+}
+.full{
+	float:left;
+	width:100%;
+	padding-left: 10px;
+}

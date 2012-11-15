@@ -29,6 +29,17 @@ header h1.logo a{
 	text-decoration: none;
 	color: #b9d0eb;
 }
+ul.layout-changer{
+	margin:0;
+	padding:3px 4px 0 4px;
+}
+ul.layout-changer li{
+	display:inline-block;
+	cursor: pointer;
+}
+ul.layout-changer li span{
+	z-index: 1;
+}
 nav{
 	float: right;
 	padding: 10px 0 0 0;
@@ -61,10 +72,7 @@ div.c1{
 	float: left;
 	width:24%;
 }
-div.c2{
-	float: right;
-	width:76%;
-}
+div.c2{}
 div.c3{
 	float: right;
 	width:100%;
